@@ -177,6 +177,12 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Assets Maker'),
         actions: [
           IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: () async {
+              await _loadAssetPaths();
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.info_outline),
             onPressed: _showDeveloperInfoDialog,
           ),

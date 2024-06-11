@@ -31,6 +31,10 @@
 Developer: <string>S.m. Kamal Hussain Shahi</strong><br>
 Contact: [s.m.kamalhussain@gmail.com](s.m.kamalhussain@gmail.com)
 
-```dart
+```
+flutter build macos --release
+```
+
+```
 appdmg ./config.json ./assets_maker_app.dmg
 ```
